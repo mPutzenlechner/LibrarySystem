@@ -24,7 +24,8 @@ public class LoginAAS {
                     // open admin menu
                     AdminMenuAAS.adminMenu();
                 } else {
-                    // TODO: open normal menu
+                    // open normal menu
+                    NormalMenuAAS.normalMenu();
                 }
             } catch (Exception e) {
                 System.out.println(e.getMessage());
