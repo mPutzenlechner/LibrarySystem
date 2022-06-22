@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 public class User {
     // static attributes
+    public static User activeUser;
     public static HashMap<String, User>  allUsers = new HashMap<>();
     public HashMap<String, Book> rentedBooks = new HashMap<>();
 
