@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="fixed problems">
+      <change afterPath="$PROJECT_DIR$/src/ApplicationLayer/AdminMenuK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UILayer/AdminMenuAAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationLayer/LoginK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationLayer/LoginK.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataLayer/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataLayer/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UILayer/LoginAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/LoginAAS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
