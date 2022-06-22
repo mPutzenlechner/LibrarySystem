@@ -16,4 +16,8 @@ public class LoginK {
             throw new IllegalArgumentException("user does not exist");
         }
     }
+
+    public boolean isAdmin() {
+        if (User.activeUser.isAdmin()) { return true; } else {return false; }
+    }
 }
