@@ -1,9 +1,17 @@
 package UILayer;
+import DataLayer.User;
 
 import ApplicationLayer.AdminMenuK;
 
 public class AdminMenuAAS {
     private static AdminMenuK ctrl = new AdminMenuK();
+
+    private static User activeUser;
+
+    public AdminMenuAAS (User activeUser) {
+        this.activeUser = activeUser;
+        adminMenu();
+    }
 
     public AdminMenuAAS() {}
 
@@ -16,7 +24,8 @@ public class AdminMenuAAS {
 
             // switch for possible selections
             if (choice.equals("new user")) {
-                // TODO: call new user interaction
+                UserNewAAS newUserASS= new UserNewAAS(activeUser);
+                newUserASS.newUser();
             } else if (choice.equals("edit user")) {
                 // TODO: call edit user interaction
             } else if (choice.equals("delete user")) {

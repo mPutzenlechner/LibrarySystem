@@ -46,4 +46,29 @@ public class User {
             return true;
         } else { return false; }
     }
+
+    public static String[] getUserNames() {
+        // create output array
+        String[] UserNames = new String[allUsers.size()];
+        int i = 0;
+        // extract keys from hashMap
+        for (String name : allUsers.keySet() ) {
+            UserNames[i] = name;
+            i++;
+        }
+        return UserNames;
+    }
+    public static User getName(String inName) {return allUsers.get(inName);}
+
+    public void copyUserStats (User instanz){
+        this.name = instanz.name;
+        this.isAdmin = instanz.isAdmin;
+        this.password = instanz.password;
+        this.rentedBooks = instanz.rentedBooks;
+        if (instanz.name != this.name){
+            allUsers.remove(this.name);
+            allUsers.put(instanz.name,this);
+            this.name = instanz.name;
+        }
+    }
 }
