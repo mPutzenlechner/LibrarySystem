@@ -9,7 +9,6 @@ public class Main {
         User user2 = new User("user", "user", false);
         User.allUsers.put("admin", user1);
         User.allUsers.put("user", user2);
-        LoginAAS loginAAS = new LoginAAS();
-        loginAAS.login();
+        LoginAAS.login();
     }
 }

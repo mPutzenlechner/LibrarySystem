@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="fixed problems" />
+    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="login is now static">
+      <change afterPath="$PROJECT_DIR$/src/ApplicationLayer/NormalMenuK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UILayer/NormalMenuAAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UILayer/LoginAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/LoginAAS.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,13 +33,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\moput\Documents\PRAKTIKA SS2022\SWE\Aufg14\LibrarySystem\src" />
@@ -57,7 +61,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655898442701</updated>
-      <workItem from="1655904999496" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="moved main.java to src">
       <created>1655899026551</created>
@@ -73,11 +76,22 @@
       <option name="project" value="LOCAL" />
       <updated>1655902638518</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added admin menu,&#10;fixed program closing all the time">
+      <created>1655911466221</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1655911466221</updated>
+    </task>
+    <task id="LOCAL-00004" summary="login is now static">
+      <created>1655911576847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655911576847</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -93,6 +107,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="moved main.java to src" />
     <MESSAGE value="fixed problems" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed problems" />
+    <MESSAGE value="added admin menu,&#10;fixed program closing all the time" />
+    <MESSAGE value="login is now static" />
+    <option name="LAST_COMMIT_MESSAGE" value="login is now static" />
   </component>
 </project>
