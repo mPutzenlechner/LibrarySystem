@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="added normal menu" />
+    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="workspace Problem">
+      <change afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserDeleteK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserEditK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserNewK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserSelectK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UILayer/AdminEditUserAAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UILayer/NormalEditUserAAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UILayer/UserDeleteAAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UILayer/UserEditAAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UILayer/UserNewAAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UILayer/UserSelectAAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationLayer/AdminMenuK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationLayer/AdminMenuK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataLayer/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataLayer/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UILayer/AdminMenuAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/AdminMenuAAS.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Sarah/Downloads/UserInterfaces_FortbildungsVerwaltung/UserInterfaces_FortbildungsVerwaltung",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\moput\Documents\PRAKTIKA SS2022\SWE\Aufg14\LibrarySystem\src" />
@@ -56,6 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655898442701</updated>
+      <workItem from="1655987187609" duration="19695000" />
     </task>
     <task id="LOCAL-00001" summary="moved main.java to src">
       <created>1655899026551</created>
@@ -85,15 +105,11 @@
       <option name="project" value="LOCAL" />
       <updated>1655911576847</updated>
     </task>
-    <task id="LOCAL-00005" summary="added normal menu">
-      <created>1655911978619</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1655911978619</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -111,7 +127,6 @@
     <MESSAGE value="fixed problems" />
     <MESSAGE value="added admin menu,&#10;fixed program closing all the time" />
     <MESSAGE value="login is now static" />
-    <MESSAGE value="added normal menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="added normal menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="login is now static" />
   </component>
 </project>

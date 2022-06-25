@@ -10,5 +10,6 @@ public class Main {
         User.allUsers.put("admin", user1);
         User.allUsers.put("user", user2);
         LoginAAS.login();
+
     }
 }
