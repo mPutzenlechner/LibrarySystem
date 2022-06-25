@@ -14,6 +14,8 @@ public class RentBookAAS {
         System.out.println("=== Rent Book ===");
         System.out.println("choose from available titles: ");
         String selectedTitle = ConsoleInputAAS.choose(availableTitles);
+        if (selectedTitle.equals(""))
+            return;
         try {
             ctrl.rentBook(selectedTitle);
         } catch (Exception e) {
