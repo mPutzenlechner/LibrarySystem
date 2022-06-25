@@ -17,7 +17,7 @@ public class AdminMenuAAS {
 
     public static void adminMenu() {
         // put all selectable options here
-        String[] choices = {"new user", "edit user", "delete user", "rent book", "return book", "logout"};
+        String[] choices = {"new user", "edit user", "delete user", "rent book", "return book", "add book to library", "logout"};
         while (true) {
             // selected option will be saved as String here
             String choice = ConsoleInputAAS.choose(choices);
@@ -31,9 +31,13 @@ public class AdminMenuAAS {
             } else if (choice.equals("delete user")) {
                 // TODO: call delete user interaction
             } else if (choice.equals("rent book")) {
-                // TODO: call rent book interaction
+                RentBookAAS rentBookAAS = new RentBookAAS();
+                rentBookAAS.rentBook();
             } else if (choice.equals("return book")) {
                 // TODO: call return book interaction
+            } else if (choice.equals("add book to library")) {
+                AddBookAAS addBookAAS = new AddBookAAS();
+                addBookAAS.addBook();
             } else if (choice.equals("logout")) {
                 return;
             } else {

@@ -10,6 +10,10 @@ public class ConsoleInputAAS {
     }
 
     static String choose(String[] alternatives) {
+        if (alternatives.length == 0) {
+            System.out.println("nothing to choose from");
+            return "";
+        }
         String output = new String();
         boolean insertRequired = false;
         while (!insertRequired) {

@@ -5,12 +5,11 @@ import java.util.HashMap;
 public class Book {
     private String title;
     private int isbn;
-    private int inventoryID;
+    private int inventoryID=0;
 
-    public Book(String title, int isbn, int inventoryID) {
+    public Book(String title, int isbn) {
         this.title = title;
         this.isbn = isbn;
-        this.inventoryID = inventoryID;
     }
 
     public String getTitle() {
@@ -23,5 +22,9 @@ public class Book {
 
     public int getInventoryID() {
         return inventoryID;
+    }
+
+    public void setInventoryID(int inventoryID) {
+        this.inventoryID = inventoryID;
     }
 }

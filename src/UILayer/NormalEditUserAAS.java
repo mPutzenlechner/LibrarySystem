@@ -20,7 +20,7 @@ public class NormalEditUserAAS {
         UserSelectAAS userSelectAAS  = new UserSelectAAS(activeUser);
         selectedUser = userSelectAAS.select();
         User selectedUserKopie = new User("", "", false);
-        selectedUserKopie.copyUserStats(selectedUser); //TODO: disesn Fehler habe ich einfach nicht korregieren kännen
+        selectedUserKopie.copyUserStats(selectedUser);
         while (true) {  // exit on "save"
             System.out.println("=== Edit user ===");
             String[] choices = new String[4];
