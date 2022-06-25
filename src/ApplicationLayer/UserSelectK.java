@@ -7,7 +7,7 @@ public class UserSelectK {
     public User getUser(String inName) {
         if (User.allUsers.size() == 0) {
             throw new RuntimeException("There are currently no Users");        }
-        return User.getName(inName);
+        return User.allUsers.get(inName);
     }
     public void writeUser(User copy) {
         // Control if the Name contains only Letters

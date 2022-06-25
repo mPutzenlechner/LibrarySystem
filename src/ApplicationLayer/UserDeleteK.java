@@ -9,7 +9,7 @@ public class UserDeleteK {
             return User.getUserNames();
         }
         public User getUser(String inName) {
-            return User.getName(inName);
+            return User.allUsers.get(inName);
         }
         public void writeUser(User copy) {
             // Controll if Name is correct

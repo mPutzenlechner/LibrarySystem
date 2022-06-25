@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="workspace Problem">
-      <change afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserDeleteK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserEditK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserNewK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserSelectK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UILayer/AdminEditUserAAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UILayer/NormalEditUserAAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UILayer/UserDeleteAAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UILayer/UserEditAAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UILayer/UserNewAAS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UILayer/UserSelectAAS.java" afterDir="false" />
+    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="fixed some static/non-static errors">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ApplicationLayer/AdminMenuK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationLayer/AdminMenuK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationLayer/UserDeleteK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserDeleteK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationLayer/UserEditK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserEditK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationLayer/UserSelectK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserSelectK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataLayer/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataLayer/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UILayer/AdminMenuAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/AdminMenuAAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UILayer/NormalEditUserAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/NormalEditUserAAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UILayer/UserDeleteAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/UserDeleteAAS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Sarah/Downloads/UserInterfaces_FortbildungsVerwaltung/UserInterfaces_FortbildungsVerwaltung",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sarah/Downloads/UserInterfaces_FortbildungsVerwaltung/UserInterfaces_FortbildungsVerwaltung&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\moput\Documents\PRAKTIKA SS2022\SWE\Aufg14\LibrarySystem\src" />
@@ -127,6 +120,7 @@
     <MESSAGE value="fixed problems" />
     <MESSAGE value="added admin menu,&#10;fixed program closing all the time" />
     <MESSAGE value="login is now static" />
-    <option name="LAST_COMMIT_MESSAGE" value="login is now static" />
+    <MESSAGE value="fixed some static/non-static errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some static/non-static errors" />
   </component>
 </project>

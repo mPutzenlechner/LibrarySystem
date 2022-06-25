@@ -7,7 +7,7 @@ public class UserEditK {
         return User.getUserNames();
     }
     public User getUser(String inName) {
-        return User.getName(inName);
+        return User.allUsers.get(inName);
     }
     public void changeUserName(User instanz, String oldName, String newName) {
         for (char c : newName.toCharArray()) {

@@ -48,6 +48,8 @@ public class User {
     }
 
     public static String[] getUserNames() {
+        return User.allUsers.keySet().toArray(new String[0]);
+        /*
         // create output array
         String[] UserNames = new String[allUsers.size()];
         int i = 0;
@@ -57,10 +59,11 @@ public class User {
             i++;
         }
         return UserNames;
+        */
     }
-    public static User getName(String inName) {return allUsers.get(inName);}
+    public String getName(String name) {return this.name; }
 
-    public void copyUserStats (User instanz){
+    public void copyUserStats(User instanz){
         this.name = instanz.name;
         this.isAdmin = instanz.isAdmin;
         this.password = instanz.password;

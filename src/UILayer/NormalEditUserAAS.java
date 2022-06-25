@@ -19,7 +19,8 @@ public class NormalEditUserAAS {
     public void edit() {
         UserSelectAAS userSelectAAS  = new UserSelectAAS(activeUser);
         selectedUser = userSelectAAS.select();
-        User selectedUserKopie = User.copyUserStats (selectedUser.name); //TODO: disesn Fehler habe ich einfach nicht korregieren kännen
+        User selectedUserKopie = new User("", "", false);
+        selectedUserKopie.copyUserStats(selectedUser); //TODO: disesn Fehler habe ich einfach nicht korregieren kännen
         while (true) {  // exit on "save"
             System.out.println("=== Edit user ===");
             String[] choices = new String[4];
@@ -31,7 +32,7 @@ public class NormalEditUserAAS {
             String choice = ConsoleInputAAS.choose(choices);
             if (choice.equals(choices[0])) {  // Change name
                 String newName = ConsoleInputAAS.insert("Insert a new name: ");
-                selectedUserKopie.name = newName;
+                selectedUserKopie.setName(newName);
             } else if (choice.equals(choices[1])) {  // Change password
                 String neuesPasswort = ConsoleInputAAS.insert("Insert a new password: ");
                 selectedUserKopie.setPassword(neuesPasswort);
