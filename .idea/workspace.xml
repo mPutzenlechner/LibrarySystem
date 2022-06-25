@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="login is now static">
-      <change afterPath="$PROJECT_DIR$/src/ApplicationLayer/NormalMenuK.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UILayer/NormalMenuAAS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UILayer/LoginAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/LoginAAS.java" afterDir="false" />
-    </list>
+    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="added normal menu" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655911576847</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added normal menu">
+      <created>1655911978619</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1655911978619</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -109,6 +111,7 @@
     <MESSAGE value="fixed problems" />
     <MESSAGE value="added admin menu,&#10;fixed program closing all the time" />
     <MESSAGE value="login is now static" />
-    <option name="LAST_COMMIT_MESSAGE" value="login is now static" />
+    <MESSAGE value="added normal menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="added normal menu" />
   </component>
 </project>
