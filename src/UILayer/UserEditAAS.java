@@ -14,7 +14,7 @@ public class UserEditAAS {
 
     public void edit() {
         if (activeUser.isAdmin()) {
-            AdminEditUserAAS adminEditUserAAS = new AdminEditUserAAS(activeUser);
+            AdminEditUserAAS adminEditUserAAS = new AdminEditUserAAS();
             adminEditUserAAS.edit();
         }
         else {

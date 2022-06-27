@@ -26,7 +26,10 @@ public class UserEditK {
                 throw new RuntimeException("Only letters are allowed in names");
             }
         }
+        // user needs to be removed and readded, in case name has changed
+        User.allUsers.remove(original.getName());
         original.copyUserStats(copy);
+        User.allUsers.put(copy.getName(), original);
     }
     public User createUser(String name, String password) {
         // pruefe name noch nicht vorhanden

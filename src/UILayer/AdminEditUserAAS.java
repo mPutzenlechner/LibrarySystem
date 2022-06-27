@@ -4,13 +4,9 @@ import ApplicationLayer.UserEditK;
 import DataLayer.User;
 
 public class AdminEditUserAAS {
-    private UserEditK controll;
-    private User activeUser;
+    private UserEditK ctrl = new UserEditK();
 
-    public AdminEditUserAAS(User aktiveUser){
-        this.activeUser = aktiveUser;
-        this.controll = new UserEditK();
-    }
+    public AdminEditUserAAS(){}
     public void edit(){
 
     }

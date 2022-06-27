@@ -2,6 +2,7 @@ package UILayer;
 
 import ApplicationLayer.AdminMenuK;
 import ApplicationLayer.NormalMenuK;
+import DataLayer.User;
 
 public class NormalMenuAAS {
     private static NormalMenuK ctrl = new NormalMenuK();
@@ -17,11 +18,14 @@ public class NormalMenuAAS {
 
             // switch for possible selections
             if (choice.equals("edit user"))  {
-                // TODO: call edit user interaction
+                NormalEditUserAAS normalEditUserAAS = new NormalEditUserAAS(User.activeUser);
+                normalEditUserAAS.edit();
             } else if (choice.equals("rent book")) {
-                // TODO: call rent book interaction
+                RentBookAAS rentBookAAS = new RentBookAAS();
+                rentBookAAS.rentBook();
             } else if (choice.equals("return book")) {
-                // TODO: call return book interaction
+                ReturnBookAAS returnBookAAS = new ReturnBookAAS();
+                returnBookAAS.returnBook();
             } else if (choice.equals("logout")) {
                 return;
             } else {

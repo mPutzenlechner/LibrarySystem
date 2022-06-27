@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="Books can now be returned" />
+    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="xml.....">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ApplicationLayer/UserEditK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ApplicationLayer/UserEditK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UILayer/AdminEditUserAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/AdminEditUserAAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UILayer/NormalEditUserAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/NormalEditUserAAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UILayer/NormalMenuAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/NormalMenuAAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UILayer/UserEditAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/UserEditAAS.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656147592720</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="xml.....">
+      <created>1656330727369</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656330727369</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +157,7 @@
     <MESSAGE value="xml..." />
     <MESSAGE value="Books can now be added and rented" />
     <MESSAGE value="Books can now be returned" />
-    <option name="LAST_COMMIT_MESSAGE" value="Books can now be returned" />
+    <MESSAGE value="xml....." />
+    <option name="LAST_COMMIT_MESSAGE" value="xml....." />
   </component>
 </project>

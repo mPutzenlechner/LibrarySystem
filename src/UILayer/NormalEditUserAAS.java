@@ -6,14 +6,13 @@ import ApplicationLayer.UserSelectK;
 import DataLayer.User;
 
 public class NormalEditUserAAS {
-    private UserEditK controll;
+    private UserEditK controll = new UserEditK();
     private User activeUser;
 
     private User selectedUser;
 
     public NormalEditUserAAS(User aktiveUser) {
         this.activeUser = aktiveUser;
-        this.controll = new UserEditK();
     }
 
     public void edit() {
