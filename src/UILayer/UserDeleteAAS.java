@@ -19,7 +19,7 @@ public class UserDeleteAAS {
         System.out.println("Choose user to delete");
         UserSelectAAS userSelectAAS = new UserSelectAAS(activeUser);
         User selectedUser = userSelectAAS.select();
-        controll.removeUser (selectedUser.getName());
+        controll.removeUser(selectedUser.getName());
     }
 }
 

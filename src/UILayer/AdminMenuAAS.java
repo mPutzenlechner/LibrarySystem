@@ -28,9 +28,11 @@ public class AdminMenuAAS {
                 UserNewAAS newUserASS= new UserNewAAS(activeUser);
                 newUserASS.newUser();
             } else if (choice.equals("edit user")) {
-                // TODO: call edit user interaction
+                AdminEditUserAAS adminEditUserAAS = new AdminEditUserAAS();
+                adminEditUserAAS.edit();
             } else if (choice.equals("delete user")) {
-                // TODO: call delete user interaction
+                UserDeleteAAS userDeleteAAS = new UserDeleteAAS(User.activeUser);
+                userDeleteAAS.delete();
             } else if (choice.equals("rent book")) {
                 RentBookAAS rentBookAAS = new RentBookAAS();
                 rentBookAAS.rentBook();
