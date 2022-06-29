@@ -16,8 +16,8 @@ public class NormalEditUserAAS {
     }
 
     public void edit() {
-        UserSelectAAS userSelectAAS  = new UserSelectAAS(activeUser);
-        selectedUser = userSelectAAS.select();
+        //UserSelectAAS userSelectAAS  = new UserSelectAAS(activeUser);
+        selectedUser = User.activeUser;
         User selectedUserKopie = new User("", "", false);
         selectedUserKopie.copyUserStats(selectedUser);
         while (true) {  // exit on "save"

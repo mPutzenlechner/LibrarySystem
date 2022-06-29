@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="implemented normal menu">
+    <list default="true" id="d1f62a0c-2b5e-4878-b992-73971b988369" name="Changes" comment="users can now be edited and deleted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UILayer/AdminEditUserAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/AdminEditUserAAS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UILayer/AdminMenuAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/AdminMenuAAS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UILayer/UserDeleteAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/UserDeleteAAS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UILayer/NormalEditUserAAS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UILayer/NormalEditUserAAS.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656331486180</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="users can now be edited and deleted">
+      <created>1656333090310</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656333090310</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +169,7 @@
     <MESSAGE value="Books can now be returned" />
     <MESSAGE value="xml....." />
     <MESSAGE value="implemented normal menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented normal menu" />
+    <MESSAGE value="users can now be edited and deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="users can now be edited and deleted" />
   </component>
 </project>
